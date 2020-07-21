@@ -9,5 +9,9 @@
     
      steps:
        - checkout
+       - run: ls
+       - run: pwd
        - run: cd test/
+       - run: ls
+       - run: pwd
        - run: dotnet build
