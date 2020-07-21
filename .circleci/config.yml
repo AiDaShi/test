@@ -8,5 +8,6 @@
      executor: win/default     
     
      steps:
+       - run: cd test/
        - checkout
        - run: dotnet build
